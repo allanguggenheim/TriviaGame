@@ -34,7 +34,7 @@ var questionsButtonsClicked=0;
 
 function handleClick()
   {         
-var answers = ["q1-d", "q2-d", "q3-d", "q4-d"]
+var answers = ["q1-b", "q2-c", "q3-b", "q4-d"]
 var amountCorrect = 0;          
 for(var i = 1; i <= 45; i++) {
   var radios = document.getElementsByName('q'+i);
