@@ -1,0 +1,27 @@
+#container {
+	width: 50%;
+	border-radius: 5px;
+	padding: 10px;
+	background-color: #17459D;
+	margin: 10% auto;
+	text-align: center;
+}
+#letters a{
+	color:green;
+	background-color: darkgreen;
+	border-radius: 5px;
+	padding: 5px;
+	cursor:pointer;
+}
+#letter a:hover{
+	color: red;
+}
+#letter a .d{
+	color: yellow;
+	text-decoration: underline;
+}
+body {
+    background-position: center top;
+    background-size: 120% auto;
+    text-decoration-color: white; 
+}

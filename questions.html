@@ -1,0 +1,124 @@
+<!DOCTYPE>
+<!DOCTYPE html>
+<html>
+<head>
+	<title>quiz</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css"/>
+	<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script> -->
+</head>
+<body background="images/bgimage.jpg">
+	<div id= 'container'>
+		<div id="header">
+<h2>Time left: <div id="timer"></div></h2>
+<!-- <div id ="stop_timer" onclick="clearInterval(timerVar)">Stop time</div> -->
+<!-- 			<h2>You Have <span id="lives">120</span> seconds left.<br/> -->
+			<h1 id="WORD">____</h1>
+		</div>
+   <form name="quiz" method="post" name="buttons" id="quiz" onsubmit="return false">
+		<div id="letters"></div>
+			<h2>How many sesons does The Office have?</h2> 
+			<center>
+			 <table>
+			  <tr>
+				<td>
+				<p>12 &nbsp;&nbsp;</p>
+                   <input type="radio" name="q1" value="q1-a">A
+			    </td>
+				<td>
+				<p>9  &nbsp;&nbsp;</p>
+                   <input type="radio" name="q1" value="q1-b">B
+			    </td>
+				<td>
+				<p>10  &nbsp;&nbsp;</p>
+                   <input type="radio" name="q1" value="q1-c">C
+			    </td>
+				<td>
+				<p>3  &nbsp;&nbsp;</p>
+                   <input type="radio" name="q1" value="q1-d">D
+			    </td>
+			  </tr>
+			  </table>
+			  </center>
+			<h2>Which two characters got married?</h2> 
+			<center>
+			 <table>
+			  <tr>
+				<td>
+				<p>Dwight and Pam  &nbsp;&nbsp;</p>
+                   <input type="radio" name="q2" value="q2-a">A
+			    </td>
+				<td>
+				<p>Jim and Merideth   &nbsp;&nbsp;</p>
+                   <input type="radio" name="q2" value="q2-b">B
+			    </td>
+				<td>
+				<p>Jim and Pam   &nbsp;&nbsp;</p>
+                   <input type="radio" name="q2" value="q2-c">C
+			    </td>
+				<td>
+				<p>Ryan and Kelly  &nbsp;&nbsp;</p>
+                   <input type="radio" name="q2" value="q2-d">D
+			    </td>
+			  </tr>
+			  </table>
+			  </center>
+			<h2>whats the name of the company they all work for?</h2> 
+			<center>
+			 <table>
+			  <tr>
+				<td>
+				<p>Staples   &nbsp;&nbsp;</p>
+                   <input type="radio" name="q3" value="q3-a">A
+			    </td>
+				<td>
+				<p>Dunder Mifflin  &nbsp;&nbsp;</p>
+                   <input type="radio" name="q3" value="q3-b">B
+			    </td>
+				<td>
+				<p>Dunder Muffin  &nbsp;&nbsp;</p>
+                   <input type="radio" name="q3" value="q3-c">C
+			    </td>
+				<td>
+				<p>Office Max  &nbsp;&nbsp;</p>
+                   <input type="radio" name="q3" value="q3-d">D
+			    </td>
+			  </tr>
+			  </table>
+			  </center>
+			<h2>Where did the original The Office premiere?</h2> 
+			<center>
+			 <table>
+			  <tr>
+				<td>
+				<p>Ireland  &nbsp;&nbsp;</p>
+                   <input type="radio" name="q4" value="q4-a">A
+			    </td>
+				<td>
+				<p>Canada  &nbsp;&nbsp;</p>
+                   <input type="radio" name="q4" value="q4-b">B
+			    </td>
+				<td>
+				<p>Italy  &nbsp;&nbsp;</p>
+                   <input type="radio" name="q4" value="q4-c">C
+			    </td>
+				<td>
+				<p>United Kingdom &nbsp;&nbsp;</p>
+                   <input type="radio" name="q4" value="q4-d">D
+			    </td>
+			  </tr>
+			  </table>
+			  </center>
+		<h1 id="WORD">____</h1>	
+
+			<button class="submit" onclick="return handleClick();" type="submit">Submit</button><br><br>
+
+	</form>
+			<h1 id="RESULTS"></h1>	<br> <br>
+			<a href="questions.html"><h2>RESTART</h2> </a>
+		</div>
+	</div>
+	<br />
+	<!-- <center><img id="main_img" src="images/0.jpg"></center> -->
+<script type="text/javascript" src="javascript/app.js"></script>
+</body>
+</html>
